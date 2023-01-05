@@ -6,7 +6,12 @@
 .text-primary {
   color: #FD6E0A;
 }
-
+.header{
+  background: #FFF8F3;
+  background-image: url(images/header_bg.png) ,url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position:right bottom ,left;
+}
 /* header and navigation  */
 nav {
   display: flex;
@@ -60,4 +65,47 @@ nav ul {
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
+}
+/* main section  */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section{
+  margin-top: 130px;
+}
+/* about section style */
+.about{
+  background: #FFF8F3;
+  border-radius: 10px;
+  margin-top: 130px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-description {
+  color: #757575 ;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.about-info-title{
+   font-size: 20px;
+   color: #474747;
+
+}
+.info-description{
+ color: #757575;
+ font-weight: 400;
+ font-size: 20px;
 }
