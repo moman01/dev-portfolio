@@ -114,7 +114,7 @@ main{
 }
 .pera {
   text-align: center;
-  
+  padding-left: 100px;
   max-width: 909px;
   max-height: 90px;
   
@@ -138,5 +138,29 @@ main{
 
 }
 .skill-description{
+  color: #757575;
+}
+/* resume style */
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-content{
+  display: flex;
+  gap: 25px;
+}
+.resume .title{
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+.resume .subtitle{
+  font-weight: 700;
+  font-size: 25px;
+  color: #757575;
+
+}
+.resume .description{
   color: #757575;
 }
